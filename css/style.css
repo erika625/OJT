@@ -1,3 +1,40 @@
 header {
   font-size: larger;
+  height: 100px;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul li {
+  margin: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainvisual {
+  display: flex;
+  justify-content: center;
+}
+
+.mainvisual .logo1 {
+  position: absolute;
+  right: 1100px;
+  bottom: 630px;
+}
+
+.mainvisual .logo2 {
+  position: absolute;
+  left: 820px;
+  top: 335px;
+}
+
+.mainvisual_title {
+  font-size: larger;
+  margin: 10px 0px 0px 170px;
 }

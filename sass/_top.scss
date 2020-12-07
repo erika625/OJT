@@ -1,3 +1,33 @@
 header{
     font-size: larger;
+    height: 100px;
+    ul{
+    display: flex;
+    justify-content: flex-end;
+    li{
+    margin:20px;
+    a{
+    text-decoration: none;
+    color:black;
+    }
+    }
+    }
+}
+.mainvisual{
+    display: flex;
+    justify-content: center;
+    .logo1{
+    position: absolute;
+    right: 1100px;
+    bottom: 630px;
+    }
+    .logo2{
+    position: absolute;
+    left: 820px;
+    top: 335px;
+    }
+}
+.mainvisual_title{
+    font-size: larger;
+    margin:10px 0px 0px 170px;
 }
