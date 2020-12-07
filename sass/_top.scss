@@ -1,9 +1,9 @@
-header{
-    font-size: larger;
-    height: 100px;
-    ul{
+.header_list{
     display: flex;
     justify-content: flex-end;
+    margin:30px 115px 0px 0px;
+    font-size: larger;
+    height: 100px;
     li{
     margin:20px;
     a{
@@ -12,7 +12,10 @@ header{
     }
     }
     }
-}
+.header_logo{
+    display: none;
+    }
+
 .mainvisual{
     display: flex;
     justify-content: center;
@@ -30,4 +33,20 @@ header{
 .mainvisual_title{
     font-size: larger;
     margin:10px 0px 0px 170px;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width:767px){
+    .header_list{
+    display: none;
+    }
+    .header_logo{
+    display: block;
+    }
+    .visual_1{
+    max-width: 100%;
+    }
+    .logo1{
+    display: none;
+    }
 }

@@ -1,20 +1,22 @@
-header {
+.header_list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 115px 0px 0px;
   font-size: larger;
   height: 100px;
 }
 
-header ul {
-  display: flex;
-  justify-content: flex-end;
-}
-
-header ul li {
+.header_list li {
   margin: 20px;
 }
 
-header ul li a {
+.header_list li a {
   text-decoration: none;
   color: black;
+}
+
+.header_logo {
+  display: none;
 }
 
 .mainvisual {
@@ -37,4 +39,20 @@ header ul li a {
 .mainvisual_title {
   font-size: larger;
   margin: 10px 0px 0px 170px;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .header_list {
+    display: none;
+  }
+  .header_logo {
+    display: block;
+  }
+  .visual_1 {
+    max-width: 100%;
+  }
+  .logo1 {
+    display: none;
+  }
 }
