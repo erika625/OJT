@@ -33,7 +33,7 @@
 .mainvisual .logo2 {
   position: absolute;
   left: 820px;
-  top: 335px;
+  top: 365px;
 }
 
 .mainvisual_title {
@@ -96,33 +96,33 @@ section article:hover {
   transition-duration: 0.1s;
 }
 
-section article a {
+section article .article_card_link {
   text-decoration: none;
   color: #000000;
 }
 
-section article a .article_card_thumbnail {
+section article .article_card_link .article_card_thumbnail {
   width: 320px;
 }
 
-section article a .article_card_text {
+section article .article_card_link .article_card_text {
   position: relative;
   height: 150px;
   margin: 10px 10px;
 }
 
-section article a .article_card_text .article_card_title {
+section article .article_card_link .article_card_text .article_card_title {
   margin-top: 5px;
 }
 
-section article a .article_card_text p {
+section article .article_card_link .article_card_text p {
   position: absolute;
   bottom: 0;
   right: 0;
   padding-bottom: 10px;
 }
 
-section article a .article_card_text p::after {
+section article .article_card_link .article_card_text p::after {
   display: block;
   position: absolute;
   right: 0;
