@@ -75,6 +75,29 @@ section {
     }
 }
 
+// .line_sm::after {
+//     display: block;
+//     position: absolute;
+//     right: 0;
+//     bottom: 0;
+//     content: "";
+//     width: 20px;
+//     height: 1px;
+//     background: #000000;
+//     transition: .5 all;
+// }
+// .line_lg {
+//     display: block;
+//     position: absolute;
+//     right: 0;
+//     bottom: 0;
+//     content: "";
+//     width: 50px;
+//     height: 1px;
+//     background: #000000;
+//     transition: .5 all;
+// }
+
 
 footer {
     display: flex;
