@@ -25,6 +25,9 @@
     left: 820px;
     top: 365px;
     }
+    .sp_logo{
+    display: none;
+    }
 }
 .mainvisual_title{
     font-size: larger;
@@ -48,14 +51,20 @@
     }
     .mainvisual{
     .logo1{
-    bottom: 685px;
     width: 100px;
-    right: 130px;
+    right: 34%;
+    top: 4%;
     }
     .logo2{
-        display: none;
+    display: none;
     }
-
+    .sp_logo{
+    display: block;
+    position: absolute;
+    max-width: 60%;
+    top: 170px;
+    right: 130px;
+    }
     }
     .mainvisual_title{
     margin: 0px;
@@ -67,5 +76,6 @@
     }
     br{
     display: block;
+    }
     }
 }
