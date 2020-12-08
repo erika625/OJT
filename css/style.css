@@ -54,11 +54,11 @@
     height: 275px;
   }
   .mainvisual .logo1 {
-    bottom: 685px;
     width: 100px;
-    right: 130px;
+    left: 145px;
+    top: 25px;
   }
-  .mainvisual .logo2 {
+  .logo2 {
     display: none;
   }
   .mainvisual_title {
@@ -133,23 +133,26 @@ section article .article_card_link .article_card_text .article_card_title {
   margin-top: 5px;
 }
 
-section article .article_card_link .article_card_text p {
+section article .article_card_link .article_card_text .link_text {
   position: absolute;
   bottom: 0;
   right: 0;
   padding-bottom: 10px;
 }
 
-section article .article_card_link .article_card_text p::after {
+section article .article_card_link .article_card_text .line_bt {
   display: block;
   position: absolute;
   right: 0;
   bottom: 0;
-  content: "";
   width: 20px;
   height: 1px;
   background: #000000;
-  transition: .5 all;
+}
+
+section article .article_card_link .article_card_text .line_bt.active {
+  width: 95px;
+  transition: .5s;
 }
 
 footer {
