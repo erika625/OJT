@@ -128,11 +128,17 @@ nav.globalMenuSp ul li a {
   padding: 1em 0;
   text-decoration :none;
 }
-
 /* このクラスを、jQueryで付与・削除する */
 nav.globalMenuSp.active {
   transform: translateX(0%);
 }
+// .fadein{ 
+// position:relative; width:100%;
+// display: flex;
+// justify-content: center;
+// }
+// .fadein img { position:absolute; left:0; top:0; }
+
 @media screen and (max-width:767px){
   header{
   height: 150px;
