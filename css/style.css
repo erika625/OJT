@@ -112,6 +112,7 @@ nav.globalMenuSp {
   transform: translateX(100%);
   transition: all 0.6s;
   width: 100%;
+  display: none;
 }
 
 nav.globalMenuSp ul {
@@ -188,6 +189,9 @@ nav.globalMenuSp.active {
     display: block;
   }
   .hamburger {
+    display: block;
+  }
+  nav.globalMenuSp {
     display: block;
   }
 }
