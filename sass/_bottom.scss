@@ -39,64 +39,46 @@ section {
           text-decoration: none; 
           color: #000000;
           
-          .article_card_thumbnail {
-              width: 320px;
-          }
+            .article_card_thumbnail {
+                width: 320px;
+            }
 
-          .article_card_text {
-              position: relative;
-              height: 150px;
-              margin: 10px 10px;
-              
-              .article_card_title {
-                  margin-top: 5px;
+            .article_card_text {
+                position: relative;
+                height: 150px;
+                margin: 10px 10px;
+
+                .article_card_title {
+                    margin-top: 5px;
                 }
 
-              p {
-                  position: absolute;
-                  bottom: 0;
-                  right: 0;
-                  padding-bottom: 10px;
+                .link_text {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    padding-bottom: 10px;
+                }
 
-                  &::after {
-                      display: block;
-                      position: absolute;
-                      right: 0;
-                      bottom: 0;
-                      content: "";
-                      width: 20px;
-                      height: 1px;
-                      background: #000000;
-                      transition: .5 all;
+                .line_bt {
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    // content: "";
+                    width: 20px;
+                    height: 1px;
+                    background: #000000;
+
+                    &.active {
+                        width: 95px;
+                        transition: .5s;
                     }
+
                 }
             }
         }
     }
 }
-
-// .line_sm::after {
-//     display: block;
-//     position: absolute;
-//     right: 0;
-//     bottom: 0;
-//     content: "";
-//     width: 20px;
-//     height: 1px;
-//     background: #000000;
-//     transition: .5 all;
-// }
-// .line_lg {
-//     display: block;
-//     position: absolute;
-//     right: 0;
-//     bottom: 0;
-//     content: "";
-//     width: 50px;
-//     height: 1px;
-//     background: #000000;
-//     transition: .5 all;
-// }
 
 
 footer {

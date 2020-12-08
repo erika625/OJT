@@ -10,3 +10,13 @@
 //         $(this).toggleClass('.ling_lg');
 //         });
 // });
+
+$(function () {
+    $('article')
+        .on('mouseover',function () {
+            $(this).find('.line_bt').addClass('active');        
+        })
+        .on('mouseleave',function () {
+            $(this).find('.line_bt').removeClass('active');        
+        });
+});
