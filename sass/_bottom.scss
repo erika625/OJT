@@ -59,7 +59,7 @@ section {
                     padding-bottom: 10px;
                 }
 
-                .line_bt {
+                .line_p {
                     display: block;
                     position: absolute;
                     right: 0;
@@ -72,8 +72,7 @@ section {
                     &.active {
                         width: 95px;
                         transition: .5s;
-                    }
-
+                    }           
                 }
             }
         }

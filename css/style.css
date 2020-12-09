@@ -247,7 +247,7 @@ section article .article_card_link .article_card_thumbnail {
 section article .article_card_link .article_card_text {
   position: relative;
   height: 150px;
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 section article .article_card_link .article_card_text .article_card_title {
@@ -261,7 +261,7 @@ section article .article_card_link .article_card_text .link_text {
   padding-bottom: 10px;
 }
 
-section article .article_card_link .article_card_text .line_bt {
+section article .article_card_link .article_card_text .line_p {
   display: block;
   position: absolute;
   right: 0;
@@ -271,7 +271,7 @@ section article .article_card_link .article_card_text .line_bt {
   background: #000000;
 }
 
-section article .article_card_link .article_card_text .line_bt.active {
+section article .article_card_link .article_card_text .line_p.active {
   width: 95px;
   transition: .5s;
 }
