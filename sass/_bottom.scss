@@ -46,7 +46,7 @@ section {
             .article_card_text {
                 position: relative;
                 height: 150px;
-                margin: 10px 10px;
+                margin: 10px;
 
                 .article_card_title {
                     margin-top: 5px;
@@ -59,7 +59,7 @@ section {
                     padding-bottom: 10px;
                 }
 
-                .line_bt {
+                .line_p {
                     display: block;
                     position: absolute;
                     right: 0;
@@ -72,8 +72,7 @@ section {
                     &.active {
                         width: 95px;
                         transition: .5s;
-                    }
-
+                    }           
                 }
             }
         }
@@ -90,4 +89,14 @@ footer {
     font-size: 12px;
     background-color: black;
     color: #ffffff;
+}
+
+@media screen and (max-width:767px){
+    section {
+        h2 {
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+    }
 }

@@ -14,10 +14,10 @@
 $(function () {
     $('article')
         .on('mouseover',function () {
-            $(this).find('.line_bt').addClass('active');        
+            $(this).find('.line_p').addClass('active');        
         })
         .on('mouseleave',function () {
-            $(this).find('.line_bt').removeClass('active');        
+            $(this).find('.line_p').removeClass('active');        
         });
 });
 
