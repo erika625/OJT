@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* header */
 .header_list {
   display: flex;
   justify-content: flex-end;
@@ -22,6 +23,7 @@
   bottom: 630px;
 }
 
+/* mainvisual */
 .mainvisual {
   display: flex;
   justify-content: center;
@@ -48,7 +50,19 @@
   display: none;
 }
 
-/*　ハンバーガーボタン　*/
+/* mainvisual fadein */
+.fadein {
+  position: relative;
+  width: 116vh;
+}
+
+.fadein img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* ハンバーガーボタン */
 .hamburger {
   display: none;
   position: fixed;
@@ -149,17 +163,6 @@ nav.globalMenuSp ul li a {
 /* このクラスを、jQueryで付与・削除する */
 nav.globalMenuSp.active {
   transform: translateX(0%);
-}
-
-.fadein {
-  position: relative;
-  width: 116vh;
-}
-
-.fadein img {
-  position: absolute;
-  left: 0;
-  top: 0;
 }
 
 @media screen and (max-width: 767px) {
