@@ -90,3 +90,13 @@ footer {
     background-color: black;
     color: #ffffff;
 }
+
+@media screen and (max-width:767px){
+    section {
+        h2 {
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+    }
+}
